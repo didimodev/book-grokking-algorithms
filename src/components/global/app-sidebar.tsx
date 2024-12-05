@@ -23,15 +23,19 @@ const items = [
     url: '#',
   },
   {
-    title: 'Ordenação por Quicksort',
-    url: '#',
-  },
-  {
-    title: 'Busca em Largura (Breadth-First)',
+    title: 'Recursão',
     url: '#',
   },
   {
     title: 'Algoritmo de Dijkstra',
+    url: '#',
+  },
+  {
+    title: 'Ordenação por Quicksort',
+    url: '#',
+  },
+  {
+    title: 'Busca em Largura',
     url: '#',
   },
   {
@@ -43,11 +47,11 @@ const items = [
     url: '#',
   },
   {
-    title: 'Transformação de Tabela Hash',
+    title: 'Tabela Hash',
     url: '#',
   },
   {
-    title: 'Algoritmo K-Nearest Neighbors',
+    title: 'K-Vizinhos Mais Próximos',
     url: '#',
   },
 ]
@@ -58,7 +62,7 @@ export function AppSidebar() {
       <SidebarHeader />
       <SidebarContent>
         <SidebarGroup />
-        <SidebarGroupLabel>Application</SidebarGroupLabel>
+        <SidebarGroupLabel>Algoritmos</SidebarGroupLabel>
         <SidebarGroupContent>
           <SidebarMenu>
             {items.map((item) => (
